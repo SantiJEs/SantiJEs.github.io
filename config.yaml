@@ -1,23 +1,100 @@
-baseURL: https://santijes.github.io
+baseURL: https://santijes.github.io/
 languageCode: en-us
 title: Portfolio
-theme: "lekh"
+theme: sada
 
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
 params:
-  Name: Santiago Jiménez Escorsa
-  About: >-
-    We're not here because we're free. We're here because we're __not__ free.
-    There's no escaping reason. No denying purpose. Because as we both know
-    without purpose, we would not exist.<br/> Read more
-    [here](https://matrix.fandom.com/wiki/Agent_Smith)
-  Email: yosantije@gmail.com
-  Resume: ''
-  PostLimit: 4
-  GoatCounterCode: ''
-  profiles:
-    - name: GitHub
-      url: 'https://github.com/SantiJEs'
-    - name: LinkedIn
-      url: 'https://LinkedIn.es'
-    - name: Twitter
-      url: 'https://twitter.com'
+  name: ''
+  title: Portfolio
+  author: Yo
+  description: Sobre mí
+  copyright: Tema utilizado
+  theme: dark
+  useResources: false
+  profile:
+    name: Santiago Jiménez Escorsa
+    photo: images/profile.jpg
+  social:
+    title: Links
+    list:
+      - icon: fab fa-linkedin-in
+        url: '#'
+        title: LinkedIn
+      - icon: fab fa-github
+        url: 'https://github.com/SantiJEs'
+        title: GitHub
+      - icon: fa fa-envelope
+        url: 'yosantije@gmail.com'
+        title: Correo electrónico
+      - icon: fab fa-twitter
+        url: '#'
+        title: Twitter
+  education:
+    title: Educación
+    list:
+      - degree: Bachillerato
+        college: I.E.S. Jose Manuel Blecua
+        dates: 2015 - 2017
+      - degree: Desarrollo de Aplicaciones Multiplataforma
+        college: I.E.S. Santiago Hernández
+        dates: 2020 - 2022
+      - degree: Desarrollo de Aplicaciones Web
+        college: C.P.I.F.P. Los Enlaces
+        dates: 2022 - *Presente*
+  language:
+    title: Idiomas
+    list:
+      - language: Español
+        level: Nativo
+      - language: Inglés
+        level: Fluido
+      - language: 'Francés, Ruso'
+        level: Básico
+  hobbies:
+    title: Hobbies
+    list:    
+      - interest: Lectura
+      - interest: Videojuegos
+      - interest: Música  
+      - interest: Viajar  
+  aboutme:
+    description: >-
+      Desarrollador de aplicaciones multiplataforma con experiencia, estudiando actualmente web para 
+      ampliar conocimientos y continuar con mi formación.
+  experiences:
+    title: Experiencia laboral
+  jobs:
+    list:
+      - position: Programador junior
+        dates: 2021 - 2022
+        link: '#'
+        company: MasterD
+        details: >-
+          Contrato de formación profesional de un año de duración obtenido gracias al programa de formación profesional Dual.
+  projects:
+    title: Proyectos
+    list:
+      - title: MiniJuegos
+        url: '#'
+        description: Aplicación movil gratuita que recopila varios minijuegos populares. 
+          Desarrollada como proyecto de fin de grado. 
+      - title: TuTuM
+        url: '#'
+        description: >-
+          Empresa ficticia creada como trabajo de fin de curso para el módulo de Empresa e iniciativa emprendedora 
+          cuyo proposito era facilitar el manejo, tratamiento y recuperación de archivos informáticos.
+  skills:
+    title: Tecnologías
+    list:
+      - skill: 'Java, SQL'
+        skillrating: 80
+      - skill: JavaScript
+        skillrating: 60
+      - skill: Python
+        skillrating: 40
+      - skill: 'HTML, CSS'
+        skillrating: 30
+      
