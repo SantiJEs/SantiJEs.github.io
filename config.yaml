@@ -1,25 +1,23 @@
 baseURL: https://santijes.github.io
 languageCode: en-us
-title: My New Hugo Site
+title: Portfolio
 theme: "lekh"
 
 params:
-  Name: Agent Smith
+  Name: Santiago Jiménez Escorsa
   About: >-
     We're not here because we're free. We're here because we're __not__ free.
     There's no escaping reason. No denying purpose. Because as we both know
     without purpose, we would not exist.<br/> Read more
     [here](https://matrix.fandom.com/wiki/Agent_Smith)
-  Email: agentsmith@thematrix.com
+  Email: yosantije@gmail.com
   Resume: ''
   PostLimit: 4
   GoatCounterCode: ''
   profiles:
     - name: GitHub
-      url: 'https://github.com/ba11b0y'
-    - name: Twitter
-      url: 'https://twitter.com/ba11b0y'
-    - name: Goodreads
-      url: 'https://www.goodreads.com/user/show/91520565-rahul-tiwari'
+      url: 'https://github.com/SantiJEs'
     - name: LinkedIn
-      url: ''
+      url: 'https://LinkedIn.es'
+    - name: Twitter
+      url: 'https://twitter.com'
